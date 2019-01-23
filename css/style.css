@@ -1,0 +1,76 @@
+body {
+  padding: 0 2rem;
+  margin: 2rem;
+}
+
+.nes-container:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+img.brand {
+  margin-right: 1rem;
+  border-radius: 50%;
+  width: 50px;
+}
+
+div.containers > .container {
+  display: inline-block;
+  max-width: 400px;
+}
+
+.nes-balloon.container .nes-balloon {
+  max-width: 600px;
+  margin: 2rem 2rem;
+}
+
+.nes-balloon.nes-container .messages {
+  display: flex;
+  flex-direction: column;
+}
+.nes-balloon.nes-container .message {
+  display: flex;
+}
+.nes-balloon.nes-container .message i {
+  align-self: flex-end;
+}
+.nes-balloon.nes-container .message.-left {
+  align-self: flex-start;
+}
+.nes-balloon.nes-container .message.-right {
+  align-self: flex-end;
+}
+
+.form.nes-container > .field:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.footer {
+  text-align: center;
+}
+.footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+.github-link {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+  display: flex;
+  height: 100px;
+  color: #333;
+  text-decoration: none;
+}
+.github-link:hover {
+  text-decoration: none;
+}
+.github-link > p.nes-balloon {
+  align-self: flex-start;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+  color: #333;
+}
+.github-link > i.nes-octocat {
+  align-self: flex-end;
+}
